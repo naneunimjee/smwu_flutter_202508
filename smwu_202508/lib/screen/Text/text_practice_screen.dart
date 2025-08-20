@@ -11,7 +11,7 @@ class TextPracticeScreen extends StatelessWidget {
         children: [
           Text("Text 위젯 실습입니다. 색상은 deepOrange",
             style: TextStyle(color: Colors.deepOrange, fontSize: 25,
-                fontWeight: FontWeight.bold, letterSpacing: 2.5),
+                fontWeight: FontWeight.bold, letterSpacing: 2.5, /* height: 2.5 */),
             maxLines: 1,
             overflow: TextOverflow.ellipsis,)
         ],
