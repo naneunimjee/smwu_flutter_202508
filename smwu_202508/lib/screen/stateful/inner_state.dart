@@ -26,7 +26,7 @@ class _InnerStateState extends State<InnerState> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(innerCount.toString()),
+        Text("Inner Count: $innerCount"),
         ElevatedButton(
           onPressed: () {
             innerCount++;
