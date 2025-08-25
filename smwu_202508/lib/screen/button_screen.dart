@@ -301,4 +301,22 @@ class ButtonScreen extends StatelessWidget {
       ),
     );
   }
+
+  /// 버튼 생성 함수
+  Widget button(BuildContext context, Widget child, String name) {
+    return ElevatedButton(
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) {
+              return child;
+            },
+          ),
+        );
+      },
+      child: Text(name),
+    );
+  }
+
 }
