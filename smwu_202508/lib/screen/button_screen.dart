@@ -252,49 +252,16 @@ class ButtonScreen extends StatelessWidget {
             /// 함수로 버튼 스크린 관리햇대.. 깃허브가서 확인하기
 
             SizedBox(height: 5),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return NavigatorScreen();
-                    },
-                  ),
-                );
-              },
-              child: Text("Navigator"),
-            ),
+
+            button(context, NavigatorScreen(), "Navigator"),
 
             SizedBox(height: 5),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return TodoScreen();
-                    },
-                  ),
-                );
-              },
-              child: Text("todo"),
-            ),
+
+            button(context, TodoScreen(), "Todo"),
 
             SizedBox(height: 5),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return NetworkScreen();
-                    },
-                  ),
-                );
-              },
-              child: Text("network"),
-            ),
+
+            button(context, NetworkScreen(), "Network"),
 
           ],
         ),
