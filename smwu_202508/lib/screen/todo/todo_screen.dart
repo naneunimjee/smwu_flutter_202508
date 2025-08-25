@@ -30,11 +30,11 @@ class _TodoScreenState extends State<TodoScreen> {
               Expanded(child: TextFormField(controller: controller,)),
               TextButton(onPressed: () {
                 print(controller.text);
+                // var 변수에 저장해서 add해도 됨
+                // var todoModel = TodoModel(controller.text, false);
                 todoList.add(TodoModel(controller.text, false));
                 print(todoList);
-                setState(() {
-
-                });
+                setState(() {});
                 /// 추가
                 /// 입력된 값을 알아야 함
               }, child: Text("등록")),
