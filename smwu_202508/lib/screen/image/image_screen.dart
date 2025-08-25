@@ -53,16 +53,6 @@ class ImageScreen extends StatelessWidget {
               ),
 
               SizedBox(height: 30),
-
-              //cover (가로 세로 상관없이 비율 유지하며 확대
-              Container(
-                color: Colors.grey,
-                width: 150, height: 150,
-                child: Image.network("https://sailing-it-images.s3.ap-northeast-2.amazonaws.com/company/company_device.png",
-                  fit: BoxFit.cover,
-                  alignment: Alignment.topLeft,),
-              )
-
             ],
           )
         ),
