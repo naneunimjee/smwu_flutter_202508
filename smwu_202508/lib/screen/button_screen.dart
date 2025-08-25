@@ -249,8 +249,6 @@ class ButtonScreen extends StatelessWidget {
               child: Text("stateful"),
             ),
 
-            /// 함수로 버튼 스크린 관리햇대.. 깃허브가서 확인하기
-
             SizedBox(height: 5),
 
             button(context, NavigatorScreen(), "Navigator"),
