@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:smwu_202508/screen/button_screen.dart';
+import 'package:smwu_202508/screen/getx/my_controller.dart';
 
 
 void main() {
+
+  /// Get 패키지에 MyController 추가
+  /// permanent 속성을 통해 계속 살아있도록 설정
+  Get.put(MyController(), permanent: true);
   runApp(const MyApp());
 }
 
