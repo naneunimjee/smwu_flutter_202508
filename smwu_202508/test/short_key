@@ -8,3 +8,7 @@ print문 자동 완성 : sout + Tab
 
 클래스 검색(윈도우) : Ctrl + N
 해당 줄 이동 : Alt + Shft + 방향키
+
+생성자/toString()/게터세터 생성 : Alt + Enter
+
+함수 매개변수값 확인 : Ctrl + P
