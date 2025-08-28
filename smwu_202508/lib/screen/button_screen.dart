@@ -11,7 +11,7 @@ import 'package:smwu_202508/screen/image/image_practice_screen.dart';
 import 'package:smwu_202508/screen/image/image_screen.dart';
 import 'package:smwu_202508/screen/navigator/navigator_screen.dart';
 import 'package:smwu_202508/screen/network/network_screen.dart';
-import 'package:smwu_202508/screen/news/news_model.dart';
+import 'package:smwu_202508/screen/news/news_screen.dart';
 import 'package:smwu_202508/screen/row/column_row_practice_screen.dart';
 import 'package:smwu_202508/screen/row/row_practice_screen.dart';
 import 'package:smwu_202508/screen/row/row_screen.dart';
@@ -270,7 +270,7 @@ class ButtonScreen extends StatelessWidget {
 
               button(context, FutureScreen(), "Future"),
 
-              button(context, NewsModel(), "뉴스 테스트")
+              button(context, NewsScreen(), "뉴스 테스트")
 
             ],
           ),
