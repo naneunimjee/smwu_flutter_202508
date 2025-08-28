@@ -35,7 +35,6 @@ class _NetworkScreenState extends State<NetworkScreen> {
               }
             });
           }, child: Text("회원 등록")),
-
         ],
       )
     );
